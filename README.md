@@ -1,12 +1,11 @@
-# Курс Data Engineer от slurm.io
-# Unit 2. Python и терминал
-После установки пакета `SlurmDE` появится команда `start_fetching`, запустив которую будут получены данные из сервиса API `http://5.159.103.105:4000/api/v1/logs` и сохранене в файл формата CSV. 
+# aiohttp fetching data.
+После установки пакета `SlurmDE` появится команда `start_fetching`, запустив которую будут получены данные из сервиса API `http://*/api/v1/logs` и сохранене в файл формата CSV. 
 
 ## Сборка пакета
 #### Python3 должен быть уже установлен.
 1. Клоинруйте проект командой и перейдите в директорию проекта
  ```bash
-git clone git@gitlab.slurm.io:data_engineer_s058356/data_engineer_review.git
+git clone https://github.com/d3rr0m/aiohttp_fetch.git
 ```
 Перейдите в папку проекта:
 ```bash
